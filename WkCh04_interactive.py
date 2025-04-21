@@ -10,9 +10,11 @@ data = pd.read_csv('Cleaned_BSS_Retail_Data.csv')
 #data = pd.read_csv('FileFoldersSKU6.csv')
 
 # App Title and Description
-st.title("Interactive Data Exploration")
 st.write("Team 05 ADTA5410")
+st.title("BSS Retail Analysis")
 
+st.header("Introduction")
+st.write("problem statement and objectives")
 
 # Sidebar Filters
 st.sidebar.header("Filter Options")   #give a title for the sidebar menu
