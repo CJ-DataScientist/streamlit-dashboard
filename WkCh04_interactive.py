@@ -14,7 +14,7 @@ st.write("Team 05 ADTA5410")
 st.title("BSS Retail Analysis")
 
 st.header("Introduction")
-st.write("The objective is to investogate how advertising cost impacts sales and profit")
+st.write("The objective is to investigate how advertising cost impacts sales and profit")
 
 # Sidebar Filters
 st.sidebar.header("Filter Options")   #give a title for the sidebar menu
@@ -77,12 +77,12 @@ st.pyplot(fig)
 
 
 st.header("Insights")
-st.write("Advertising costs have significant influence on sales")
-st.write("As customers order more units, profit increases significantly")
+st.write("*Advertising costs have significant influence on sales")
+st.write("*As customers order more units, profit increases significantly")
 
 st.header("Recommendations")
-st.write("Heavily investing in advertising and formulating strategies that will help boost sales for BSS Retail using advertising")
-st.write("Implementing incentives towards bulk ordering, which will encourage customers to purchase in larger quantities, thereby increasing profit")
+st.write("*Heavily investing in advertising and formulating strategies that will help boost sales for BSS Retail using advertising")
+st.write("*Implementing incentives towards bulk ordering, which will encourage customers to purchase in larger quantities, thereby increasing profit")
 
 
 
