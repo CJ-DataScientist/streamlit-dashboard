@@ -26,9 +26,10 @@ sku_list = data['sku'].unique().tolist()
 selected_sku = st.sidebar.selectbox("Select SKU to visualize:", sku_list)
 
 
+st.header("Data Exploration")
 ## Add a histogram
 # Section: Distribution of the Numerical Variables
-st.header("Distribution of the Numerical Variables")
+#st.header("Distribution of the Numerical Variables")
 st.write("This histogram shows the distribution of the selected numerical variable")
 
 # Plot histogram
@@ -43,7 +44,7 @@ if selected_col:
 
 
 # Adding a Scatter Plot
-st.header("Scatter Plot: Sales vs. Advertisement Costs")
+#st.header("Scatter Plot: Sales vs. Advertisement Costs")
 st.write("This scatter plot shows the relationship between sales and advertising costs for the selected sku")
 # Filter data based on selected SKU
 filtered_df = data[data['sku'] == selected_sku]
@@ -59,7 +60,7 @@ st.pyplot(fig)
 
 
 # Adding a Scatter Plot
-st.header("Scatter Plot: Profit vs. Units Ordered")
+#st.header("Scatter Plot: Profit vs. Units Ordered")
 st.write("This scatter plot shows the relationship between profit and Units Ordered for the selected sku")
 # Filter data based on selected SKU
 #filtered_df = data[data['sku'] == selected_sku]
@@ -75,6 +76,11 @@ st.pyplot(fig)
 
 
 
+st.header("Insights")
+st.write("write insights here")
+
+st.header("Recommendations")
+st.write("write Recommendations here")
 
 
 
